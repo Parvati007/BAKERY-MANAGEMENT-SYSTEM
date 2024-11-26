@@ -1,0 +1,44 @@
+
+.menu {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .menu h2 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+  }
+  
+  .menu p {
+    margin-bottom: 20px;
+    font-size: 1.2em;
+    color: #555;
+  }
+  
+  .menu-categories {
+    margin: 30px 0;
+    text-align: left;
+  }
+  
+  .menu-categories h3 {
+    font-size: 2em;
+    margin-top: 20px;
+    color: #ff6f61;
+  }
+  
+  .menu-categories p {
+    font-size: 1.1em;
+    margin-bottom: 15px;
+  }
+  
+  .featured-products {
+    margin-top: 40px;
+  }
+  
+  .menu-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px; /* Space between product cards */
+  }
+  

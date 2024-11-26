@@ -1,0 +1,43 @@
+.header {
+    display: flex;
+    align-items: center; /* Center items vertically */
+    justify-content: space-between; /* Space out logo and nav */
+    background-color:#e7a379; /* Light background color */
+    padding: 20px; /* Padding around the header */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  }
+  
+  .logo-container {
+    display: flex;
+    align-items: center; /* Center logo and title vertically */
+    font-size: large;
+  }
+  
+  .logo {
+    width: 50px; /* Adjust the width of the logo */
+    height: auto; /* Maintain aspect ratio */
+    margin-right: 15px; /* Space between logo and title */
+  }
+  
+  h1 {
+    font-size: 24px; /* Title size */
+    color: #5b3a29; /* Dark color for the title */
+  }
+  
+  .navbar {
+    display: flex; /* Display links in a row */
+  }
+  
+  .nav-link {
+    text-decoration: none; /* Remove underline */
+    color: #5b3a29; /* Link color */
+    padding: 10px 15px; /* Padding around links */
+    transition: background-color 0.3s, color 0.3s; /* Transition for hover effects */
+  }
+  
+  .nav-link:hover {
+    background-color: #5b3a29; /* Dark background on hover */
+    color: #ffffff; /* White text on hover */
+    border-radius: 5px; /* Rounded corners */
+  }
+  

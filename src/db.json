@@ -1,0 +1,8 @@
+{
+    "products": [
+      { "id": 1, "name": "Cupcake", "description": "Chocolate cupcake", "price": 2.99, "image": "cupcake.jpg" },
+      { "id": 2, "name": "Donut", "description": "Glazed donut", "price": 1.99, "image": "donut.jpg" },
+      { "id": 3, "name": "Croissant", "description": "Buttery croissant", "price": 3.49, "image": "croissant.jpg" }
+    ]
+  }
+  
